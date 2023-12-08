@@ -1,4 +1,4 @@
 ---
 var : value
 mywebpackubuntu : apache2
-myjavapackonubunt: openjdk-11-jdk
+myjavapackonubuntu : openjdk-11-jdk
