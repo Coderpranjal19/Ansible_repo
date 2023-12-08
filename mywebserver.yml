@@ -4,12 +4,12 @@
   tasks:
   - name : install web server on node
     apt:
-      name : apache2
+      name : "{{mywebpackubuntu}}"
       state : present
     when : ansible_os_family =="Debian"
 
   - name : i want to start/stop web server in node
     service:
-      name : apache2
+      name : "{{mywebpackubuntu}}"
       state : started
     when : ansible_os_family =="Debian"

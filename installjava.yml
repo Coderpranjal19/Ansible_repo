@@ -1,0 +1,9 @@
+---
+- hosts : mywebservers
+  become : yes
+  tasks:
+   - name : install java on nodes
+     apt:
+       name : "{{myjavapackubuntu}}"
+       state : present
+     when : ansible_os_family == "Debian"
