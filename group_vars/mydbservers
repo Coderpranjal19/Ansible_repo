@@ -1,3 +1,4 @@
 ---
 var : value
-mywebpackubuntu : apache22 #wrong name
+mywebpackubuntu : apache2
+myjavapackonubuntu : java
